@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Moschini Sebastián seba.sc@live.com.ar" />
+    <meta
+      name="description"
+      content="Esta web contiene una imagen que al presionarla se reproduce un video."
+    />
+    <meta name="keywords" content="video, modal" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Solicitud R3</title>
+  </head>
+  <body>
+    <!-- BANNER -->
+    <div class="banner">
+      <header class="header">
+        <img src="resource/logo.PNG" alt="" />
+      </header>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="col-lg-5">
+        <a href="#modal" id="show-modal">
+          <img src="https://i.ytimg.com/vi/V_iPlHyuuXQ/0.jpg" />
+        </a>
+        <aside id="modal" class="modal">
+          <div class="content-modal">
+            <header>
+              <a href="#" class="close-modal">X</a>
+              <h2>Video</h2>
+            </header>
+            <article>
+              <iframe
+                src="https://www.youtube.com/embed/V_iPlHyuuXQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </article>
+            <a href="#" class="btn-close-modal"></a>
+          </div>
+        </aside>
+      </div>
+      <div class="col-lg-7">
+        <div class="video-body">
+          <div class="video-title">
+            <h1>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur eius ab fugiat.
+            </h1>
+          </div>
+          <div class="video-description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              nam, qui asperiores ullam quod commodi doloribus iusto eaque est
+              quia?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate nam debitis saepe eius dolore nemo perspiciatis
+              consequatur, tempore consectetur corporis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
